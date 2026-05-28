@@ -1,0 +1,4 @@
+C:\School\CS162N\lab6\Inheritancelab_master\Inheritance\BJ\obj\Debug\net8.0\BJ.GeneratedMSBuildEditorConfig.editorconfig
+C:\School\CS162N\lab6\Inheritancelab_master\Inheritance\BJ\obj\Debug\net8.0\BJ.AssemblyInfoInputs.cache
+C:\School\CS162N\lab6\Inheritancelab_master\Inheritance\BJ\obj\Debug\net8.0\BJ.AssemblyInfo.cs
+C:\School\CS162N\lab6\Inheritancelab_master\Inheritance\BJ\obj\Debug\net8.0\BJ.csproj.CoreCompileInputs.cache
