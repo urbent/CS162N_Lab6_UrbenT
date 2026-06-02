@@ -1,54 +1,59 @@
 using System;
-namespace CardClasses
-public class BJHand : Hand
+using CardClasses;
+
+namespace BJ
 {
-    public bool HasAce
+    public class BJHand : Hand
     {
-        get { return HasCard(1); }
-    }
+        public BJHand() : base() { }
 
-    public bool IsBusted
-    {
-        get { return Score > 21; }
-    }
+        public BJHand(Deck d, int numCards) : base(d, numCards) { }
 
-    public int Score
-    {
-        get
+        public bool HasAce => HasCard(1);
+        public bool IsBusted => Score > 21;
+
+        public int Score
         {
-            int total = 0;
-            int aceCount = 0;
-
-            for (int i = 0; i < NumCards; i++)
+            get
             {
-                Card c = GetCard(i);
+                int total = 0;
+                int aceCount = 0;
 
-                if (c.Value == 1)
+                for (int i = 0; i < NumCards; i++)
                 {
-                    aceCount++;
-                    total += 11;
+                    Card c = GetCard(i);
+
+                    if (c.Value == 1)
+                    {
+                        aceCount++;
+                        total += 11;
+                    }
+                    else if (c.Value >= 10)
+                        total += 10;
+                    else
+                        total += c.Value;
                 }
-                else if (c.Value >= 10)
-                    total += 10;
-                else
-                    total += c.Value;
-            }
 
-            while (total > 21 && aceCount > 0)
-            {
-                total -= 10;
-                aceCount--;
-            }
+                while (total > 21 && aceCount > 0)
+                {
+                    total -= 10;
+                    aceCount--;
+                }
 
-            return total;
+                return total;
+            }
         }
-    }
 
-    public BJHand() : base()
-    {
-    }
+        public override string ToString()
+        {
+            if (NumCards == 0)
+                return "Hand is empty.";
 
-    public BJHand(Deck d, int numCards) : base(d, numCards)
-    {
+            string result = $"Hand ({NumCards} card(s)):\n";
+            for (int i = 0; i < NumCards; i++)
+                result += $"  {GetCard(i)}\n";
+            result += $"  Score: {Score}";
+            return result;
+        }
     }
 }

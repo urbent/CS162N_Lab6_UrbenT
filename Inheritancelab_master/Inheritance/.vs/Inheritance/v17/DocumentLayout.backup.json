@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\School\\CS162N\\lab6\\Inheritancelab_master\\Inheritance\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|c:\\school\\cs162n\\lab6\\cs162n_lab6_urbent\\inheritancelab_master\\inheritance\\bj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|solutionrelative:bj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|c:\\school\\cs162n\\lab6\\cs162n_lab6_urbent\\inheritancelab_master\\inheritance\\bj\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|solutionrelative:bj\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|c:\\school\\cs162n\\lab6\\cs162n_lab6_urbent\\inheritancelab_master\\inheritance\\bj\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|solutionrelative:bj\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|c:\\school\\cs162n\\lab6\\cs162n_lab6_urbent\\inheritancelab_master\\inheritance\\bj\\bjhand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|solutionrelative:bj\\bjhand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|c:\\school\\cs162n\\lab6\\cs162n_lab6_urbent\\inheritancelab_master\\inheritance\\bj\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38195AAF-0C95-4398-BC8B-0FFAF7084842}|BJ\\BJ.csproj|solutionrelative:bj\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Program.cs",
+              "RelativeDocumentMoniker": "BJ\\Program.cs",
+              "ToolTip": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Program.cs",
+              "RelativeToolTip": "BJ\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T02:21:25.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Hand.cs",
+              "RelativeDocumentMoniker": "BJ\\Hand.cs",
+              "ToolTip": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Hand.cs",
+              "RelativeToolTip": "BJ\\Hand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T02:16:23.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BJHand.cs",
+              "DocumentMoniker": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\BJHand.cs",
+              "RelativeDocumentMoniker": "BJ\\BJHand.cs",
+              "ToolTip": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\BJHand.cs",
+              "RelativeToolTip": "BJ\\BJHand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T02:16:10.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Deck.cs",
+              "RelativeDocumentMoniker": "BJ\\Deck.cs",
+              "ToolTip": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Deck.cs",
+              "RelativeToolTip": "BJ\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T03:06:22.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Card.cs",
+              "RelativeDocumentMoniker": "BJ\\Card.cs",
+              "ToolTip": "C:\\School\\CS162N\\lab6\\CS162N_Lab6_UrbenT\\Inheritancelab_master\\Inheritance\\BJ\\Card.cs",
+              "RelativeToolTip": "BJ\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T03:07:11.27Z",
+              "EditorCaption": ""
             }
           ]
         },
